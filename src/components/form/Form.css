@@ -1,0 +1,35 @@
+.subscription-form {
+  margin-top: 40px;
+}
+.subscription-form input {
+  outline: none;
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  border: 1px solid var(--grey);
+  border-radius: 10px;
+}
+.subscription-form h5 {
+  display: flex;
+  justify-content: space-between;
+}
+.subscription-form .error-message {
+  color: var(--primary);
+}
+.subscription-form .invalid {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background-color: #ff60551b;
+}
+.hidden {
+  display: none;
+}
+.subscription-form input:focus {
+  border: 1px solid black;
+  color: black;
+}
+.subscription-form .invalid:focus {
+  border: 1px solid var(--primary);
+  background-color: var(--white);
+}

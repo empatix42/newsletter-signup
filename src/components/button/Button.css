@@ -1,0 +1,17 @@
+.btn {
+  width: 100%;
+  background-color: var(--darkSlateGrey);
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: 'Roboto-Bold';
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn:hover {
+  background-image: linear-gradient(#ff6a3a, #ff527b);
+  box-shadow: rgb(255, 82, 123, 0.4) 0px 20px 30px;
+}
